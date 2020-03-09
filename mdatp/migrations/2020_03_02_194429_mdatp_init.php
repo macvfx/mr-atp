@@ -12,7 +12,7 @@ class MdatpInit extends Migration
             $table->increments('id');
             $table->string('serial_number')->unique();
             $table->string('item1');
-            $table->integer('item2');
+            $table->string('item2');
 
             $table->index('item1');
             $table->index('item2');
