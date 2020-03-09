@@ -31,11 +31,7 @@ versionEngine="${versionEngine//\"/}"
 
 # Output data here
 echo "item1${SEPARATOR}$healthy" > ${OUTPUT_FILE}
-<<<<<<< HEAD
-echo "item2${SEPARATOR}'$versionEngine'" >> ${OUTPUT_FILE}
-=======
 echo "item2${SEPARATOR}$versionEngine" >> ${OUTPUT_FILE}
->>>>>>> master
 
 # Test without the source txt file
 # echo "healthy${SEPARATOR}Yes" > ${OUTPUT_FILE}
