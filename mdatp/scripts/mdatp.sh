@@ -30,8 +30,8 @@ versionEngine="${versionEngine//\"/}"
 # echo "$versionEngine"
 
 # Output data here
-echo "healthy${SEPARATOR}$healthy" > ${OUTPUT_FILE}
-echo "versionEngine${SEPARATOR}$versionEngine" >> ${OUTPUT_FILE}
+echo "item1${SEPARATOR}$healthy" > ${OUTPUT_FILE}
+echo "item2${SEPARATOR}$versionEngine" >> ${OUTPUT_FILE}
 
 # Test without the source txt file
 # echo "healthy${SEPARATOR}Yes" > ${OUTPUT_FILE}
