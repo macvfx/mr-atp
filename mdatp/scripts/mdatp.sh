@@ -18,6 +18,9 @@ fi
 # Create cache dir if it does not exist
 mkdir -p "${CACHEDIR}"
 
+# run MDATP health check
+/usr/local/bin/mdatp --health > ${CACHEDIR}mdatp-health.txt
+
 # print healthy : "false" or "true"
 healthy=$(grep "healthy" ${CACHEDIR}mdatp-health.txt)
 healthy="${healthy#*: }"
