@@ -1,8 +1,8 @@
 <?php
 
-use munkireport\app\models\MRModel as Eloquent;
+use munkireport\models\MRModel as Eloquent;
 
-class mdatp_model extends Eloquent
+class Mdatp_model extends Eloquent
 {
     protected $table = 'mdatp';
 

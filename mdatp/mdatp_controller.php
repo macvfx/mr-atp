@@ -6,7 +6,7 @@
  * @package munkireport
  * @author
  **/
-class mdatp_controller extends Module_controller
+class Mdatp_controller extends Module_controller
 {
 
     /*** Protect methods with auth! ****/

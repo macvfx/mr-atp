@@ -2,7 +2,7 @@
 
 use munkireport\processors\Processor;
 
-class mdatp_processor extends Processor
+class Mdatp_processor extends Processor
 {
     public function run($data)
     {
