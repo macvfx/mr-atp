@@ -1,0 +1,15 @@
+client_tabs:
+    Matx:
+        view: Matx_tab
+        i18n: Matx.title
+listings:
+    Matx:
+        view: Matx_listing
+        i18n: Matx.listing.title
+widgets:
+    Matx:
+        view: Matx_widget
+reports:
+    Matx:
+        view: Matx_report
+        i18n: Matx.report.title
