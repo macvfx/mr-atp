@@ -1,0 +1,18 @@
+{
+    "link": "Matx Link",
+    "listing": {
+        "title": "Matx Listing",
+        "item1": "Healthy",
+        "item2": "Version Engine",
+        "item3": "Definitions Updated",
+        "item4": "Definitions Updated Minutes Ago",
+        "item5": "Definitions Version"
+    },
+    "report": {
+        "title": "Matx Report"
+    },
+    "title": "Matx Title",
+    "widget": {
+        "title": "Matx Widget"
+    }
+}

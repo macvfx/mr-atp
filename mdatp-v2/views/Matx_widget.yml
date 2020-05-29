@@ -1,0 +1,7 @@
+type: scrollbox
+widget_id: Matx-widget
+api_url: /module/Matx/get_list
+i18n_title: Matx.widget.title
+icon: fa-laptop
+listing_link: /show/listing/Matx/Matx
+search_key: item1

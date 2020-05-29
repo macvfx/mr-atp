@@ -1,0 +1,25 @@
+i18n_title: Matx.listing.title
+table:
+    -
+        column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: Matx-tab
+    -
+        column: reportdata.serial_number
+        i18n_header: serial
+    -
+        column: Matx.item1
+        i18n_header: Matx.listing.item1
+    -
+        column: Matx.item2
+        i18n_header: Matx.listing.item2
+    -
+        column: Matx.item3
+        i18n_header: Matx.listing.item3
+    -
+        column: Matx.item4
+        i18n_header: Matx.listing.item4
+    -
+        column: Matx.item5
+        i18n_header: Matx.listing.item5
